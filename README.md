@@ -100,8 +100,8 @@ This timeline includes only (a) events published by CISA in ICSA-26-055-03, (b) 
 
 | Date | Event | Type |
 |------|-------|------|
-| 2025-10-14 | Initial disclosure to vendor — included the mass PII exposure on `/api/users` (CVE-2026-28766) | Researcher action |
-| 2025-12-11 | Disclosure to CERT/CC (58 days after initial vendor disclosure) | Researcher action / observable communication gap |
+| 2025-10-14 | Initial disclosure to vendor — included the mass PII exposure on `/api/users` (CVE-2026-28766; the researcher'"""s own account record was visible in the unauthenticated response — direct standing as an affected data subject) and OS command-injection RCE on a Gardyn device the researcher owned | Researcher + consumer action (dual-capacity) |
+| 2025-12-11 | Disclosure to CERT/CC (58 days after initial vendor disclosure that already included the PII finding) | Researcher + consumer action (dual-capacity) / observable communication gap |
 | 2025-12-18 | `/api/users` endpoint stopped returning data to unauthenticated requests (CVE-2026-28766) | Observable vendor action |
 | 2026-01-19 | Firmware master.583 deployed (build date encoded in version string `master.583.20260119`) | Firmware deployment |
 | 2026-01-22 | `iothubowner` Azure IoT Hub administrative credential rotated (CVE-2025-1242 — previously distributed key stopped working) | Observable vendor action |
