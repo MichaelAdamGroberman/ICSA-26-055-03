@@ -1,3 +1,17 @@
+> **Customer / journalist / regulator entry point:** [**gardyn-security-incident.info**](https://gardyn-security-incident.info)
+>
+> | If you are... | Go to |
+> |---|---|
+> | A Gardyn customer | [What was exposed and what to do](https://gardyn-security-incident.info/for-customers/) |
+> | A journalist | [Press kit, on-record contact, source materials](https://gardyn-security-incident.info/for-press/) |
+> | Looking for the timeline | [October 14, 2025 first contact through CISA Update A](https://gardyn-security-incident.info/timeline/) |
+> | Looking for the public-record discrepancies | [Vendor statements vs. CISA findings](https://gardyn-security-incident.info/discrepancies/) |
+> | A researcher | [Per-CVE technical detail](https://gardyn-security-incident.info/for-researchers/) |
+>
+> This GitHub repository remains the canonical primary-source technical record. The site above is the customer-and-press-facing layer over it.
+
+---
+
 > **CERT/CC VU#653116** | [CISA Advisory ICSA-26-055-03](https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-03)
 
 # ICSA-26-055-03 -- Gardyn Home Kit IoT Vulnerabilities (Update A)
